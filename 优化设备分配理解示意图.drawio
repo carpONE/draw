@@ -1,0 +1,59 @@
+<mxfile host="app.diagrams.net" modified="2024-01-05T07:41:32.281Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="JjpElDoUag3ts-ysUimt" version="22.1.16" type="device">
+  <diagram name="第 1 页" id="e1NoEdf7aWCd0x2-uwLn">
+    <mxGraphModel dx="1877" dy="1738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jQPC9AbLbP4iLRhdmr1n-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jQPC9AbLbP4iLRhdmr1n-1" target="jQPC9AbLbP4iLRhdmr1n-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jQPC9AbLbP4iLRhdmr1n-11" value="遍历每个座位，当有人则按顺序分配设备到座位" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jQPC9AbLbP4iLRhdmr1n-7">
+          <mxGeometry x="-0.0503" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jQPC9AbLbP4iLRhdmr1n-1" value="人员排座" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jQPC9AbLbP4iLRhdmr1n-2" value="&lt;h1&gt;优化设备分配理解示意图&lt;/h1&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="269" y="-30" width="290" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="jQPC9AbLbP4iLRhdmr1n-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jQPC9AbLbP4iLRhdmr1n-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jQPC9AbLbP4iLRhdmr1n-4" value="中间数据" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="60" y="310" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jQPC9AbLbP4iLRhdmr1n-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jQPC9AbLbP4iLRhdmr1n-1" target="jQPC9AbLbP4iLRhdmr1n-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jQPC9AbLbP4iLRhdmr1n-6" value="每个会议座次图只有一条数据&lt;br&gt;，当排议题人员时根据座位编号进行对应" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jQPC9AbLbP4iLRhdmr1n-5">
+          <mxGeometry x="0.18" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jQPC9AbLbP4iLRhdmr1n-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jQPC9AbLbP4iLRhdmr1n-8" target="jQPC9AbLbP4iLRhdmr1n-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jQPC9AbLbP4iLRhdmr1n-8" value="设备分配" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="439" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jQPC9AbLbP4iLRhdmr1n-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jQPC9AbLbP4iLRhdmr1n-12" target="jQPC9AbLbP4iLRhdmr1n-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jQPC9AbLbP4iLRhdmr1n-15" value="检查是否有问题" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jQPC9AbLbP4iLRhdmr1n-14">
+          <mxGeometry x="0.175" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jQPC9AbLbP4iLRhdmr1n-12" value="保存" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="439" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
