@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-08T07:31:09.306Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="-zt20zSjpceysuJyqUBi" version="22.1.16" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-08T08:41:50.643Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Sa2TaWIxJjWdpEzkx0dr" version="22.1.16" type="github">
   <diagram name="第 1 页" id="e1NoEdf7aWCd0x2-uwLn">
     <mxGraphModel dx="1877" dy="1738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -77,8 +77,10 @@
             <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TOe0ZiUlGQk0aBQ8viVR-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TOe0ZiUlGQk0aBQ8viVR-7" target="TOe0ZiUlGQk0aBQ8viVR-13">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="TOe0ZiUlGQk0aBQ8viVR-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TOe0ZiUlGQk0aBQ8viVR-7" target="TOe0ZiUlGQk0aBQ8viVR-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="114" y="780" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="TOe0ZiUlGQk0aBQ8viVR-16" value="若有" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TOe0ZiUlGQk0aBQ8viVR-14">
           <mxGeometry x="-0.4133" y="-1" relative="1" as="geometry">
@@ -98,7 +100,48 @@
           <mxGeometry x="850" y="390" width="340" height="640" as="geometry" />
         </mxCell>
         <mxCell id="TOe0ZiUlGQk0aBQ8viVR-13" value="按座位编号保存议题id、人员姓名" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="54" y="760" width="120" height="60" as="geometry" />
+          <mxGeometry x="54" y="990" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TOe0ZiUlGQk0aBQ8viVR-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TOe0ZiUlGQk0aBQ8viVR-17" target="TOe0ZiUlGQk0aBQ8viVR-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="114" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TOe0ZiUlGQk0aBQ8viVR-19" value="该座位有两个人同时，若该座位是同一个人&lt;br&gt;但议题则是分开添加的" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TOe0ZiUlGQk0aBQ8viVR-18">
+          <mxGeometry x="-0.1964" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TOe0ZiUlGQk0aBQ8viVR-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="TOe0ZiUlGQk0aBQ8viVR-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TOe0ZiUlGQk0aBQ8viVR-25" value="该座位议题1有人，议题2没人；或议题1没人，议题2有人" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TOe0ZiUlGQk0aBQ8viVR-20">
+          <mxGeometry x="-0.0306" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TOe0ZiUlGQk0aBQ8viVR-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="TOe0ZiUlGQk0aBQ8viVR-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-240" y="990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TOe0ZiUlGQk0aBQ8viVR-27" value="排完后，在全程参会人员座次那里又修改了？本来有人的，变为没人了" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TOe0ZiUlGQk0aBQ8viVR-26">
+          <mxGeometry x="-0.1211" y="3" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TOe0ZiUlGQk0aBQ8viVR-28" value="根据人员类型？" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TOe0ZiUlGQk0aBQ8viVR-26">
+          <mxGeometry x="0.6207" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TOe0ZiUlGQk0aBQ8viVR-17" value="如何保存" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="74" y="770" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TOe0ZiUlGQk0aBQ8viVR-29" value="根据原有数据中人员类型是否为全程" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="990" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
